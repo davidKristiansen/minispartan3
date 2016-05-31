@@ -27,8 +27,8 @@ entity blink is
 	Port (
 		LEDS : out STD_LOGIC_VECTOR(2 downto 0) := (others => '0');
 		Clk : in STD_LOGIC;
-		PORTB10 : out STD_LOGIC;
-		PORTB11 : in STD_LOGIC
+		PORTB10 : out STD_LOGIC; 	-- Connected to external LED
+		PORTB11 : in STD_LOGIC 		-- Connected to external button with pulldown
 	);
 
 end blink;
