@@ -1,0 +1,6 @@
+## Clocks
+NET "Clk_32" PERIOD = 31.25 ns | LOC = "P85";
+
+
+NET "Data"  LOC="P83"  | IOSTANDARD=LVTTL; # PORTA0
+
