@@ -30,7 +30,7 @@ USE IEEE.NUMERIC_STD.ALL;
 ENTITY ws2812_top IS
     PORT (
 		Clk_32 : IN  STD_LOGIC;
-		Data : OUT STD_LOGIC
+		D_out : OUT STD_LOGIC
 	);
 END ws2812_top;
 
